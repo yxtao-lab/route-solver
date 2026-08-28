@@ -7,6 +7,7 @@
 
 ### Added
 
+- 新增产品分支 `douxing`：专供兜行（Douxing）系统定制；monorepo submodule 跟踪此分支
 - 新增 `NOTICE`：声明基于 Google OR-Tools 的独立分叉与快照信息
 - 重写根目录 `README.md`：明确产品定位、默认同不同步 Google 上游
 - 新增本 `CHANGELOG.md`
@@ -14,3 +15,4 @@
 ### Notes
 
 - 冻结快照：OR-Tools 9.15 / commit `98c165af62df62b3056c2ee0fca66b24e79097cb`（`stable`）
+- 分支策略：`stable` = 通用基线；`douxing` = 兜行专用

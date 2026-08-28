@@ -53,8 +53,13 @@ git submodule update --init --depth 1 packages/or-tools/upstream
 
 ## 贡献与分支
 
-- 默认分支：`stable`（与 fork 时上游一致；后续产品发版可用 tag，例如 `v0.1.0`）
-- 功能开发：从 `stable` 拉 `feat/...` 分支，评审后合并回 `stable`
+| 分支 | 用途 |
+|------|------|
+| `stable` | 产品通用基线（与 fork 时上游一致；发版可用 tag，如 `v0.1.0`） |
+| **`douxing`** | **专供兜行（Douxing）系统的定制分支**；兜行 monorepo submodule 跟踪此分支 |
+
+- 兜行相关改动请提交到 `douxing`（或从 `douxing` 拉 `feat/...` 再合回）
+- 与兜行无关、可复用的通用能力可合入 `stable`，再按需 cherry-pick / merge 到 `douxing`
 - Issue / PR：请开在本仓库，勿向 `google/or-tools` 提交兜行业务相关改动
 
 ## License
