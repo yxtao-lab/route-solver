@@ -1,0 +1,30 @@
+Route Solver
+Copyright (c) 2026 yxtao-lab
+
+This product is an independent fork maintained by yxtao-lab for the Douxing
+(兜行) project and related commercial / open products.
+
+---------------------------------------------------------------------------
+Third-party notice — Google OR-Tools
+---------------------------------------------------------------------------
+
+This product includes software developed from Google OR-Tools
+(https://github.com/google/or-tools), Copyright Google LLC and contributors.
+
+OR-Tools is licensed under the Apache License, Version 2.0.
+A copy of the license is included in the LICENSE file of this repository.
+
+Base snapshot used when this product line was established:
+
+  - Upstream project : google/or-tools
+  - Version          : 9.15 (see Version.txt; release candidate at fork time)
+  - Commit           : 98c165af62df62b3056c2ee0fca66b24e79097cb
+  - Branch at fork   : stable
+
+Modifications relative to that snapshot are described in CHANGELOG.md.
+
+This repository is NOT an official Google product. The name "Route Solver"
+and any Douxing-specific APIs or packaging are independent of Google.
+
+For the Apache License 2.0 text, see:
+  http://www.apache.org/licenses/LICENSE-2.0
